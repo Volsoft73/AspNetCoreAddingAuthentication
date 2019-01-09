@@ -15,12 +15,12 @@ namespace WishList.Controllers
 
         private readonly UserManager<ApplicationUser> _userManager;
 
-        private readonly SignInManager<ApplicationUser> _sigInManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> sigInManager)
         {
             _userManager = userManager;
-            _sigInManager = sigInManager;
+            _signInManager = sigInManager;
         }
 
 
