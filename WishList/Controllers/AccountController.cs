@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using WishList.Models;
 namespace WishList.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
 
